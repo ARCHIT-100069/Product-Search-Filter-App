@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import mockProducts from "./assets/mockProducts";
 import SearchBar from "./components/SearchBar";
 import Filters from "./components/Filters";
@@ -31,27 +31,25 @@ function App() {
     setUser(null);
   };
 
-  const categories = useMemo(() => getCategories(mockProducts), []);
+  const categories = getCategories(mockProducts);
 
-  const filteredProducts = useMemo(() => {
-    return mockProducts.filter((product) => {
-      if (
-        search &&
-        !product.title.toLowerCase().includes(search.toLowerCase())
-      ) {
-        return false;
-      }
-      if (category && product.category !== category) {
-        return false;
-      }
-      if (price === "under50" && product.price >= 50) return false;
-      if (price === "50to100" && (product.price < 50 || product.price > 100))
-        return false;
-      if (price === "over100" && product.price <= 100) return false;
-      if (minRating && product.rating < minRating) return false;
-      return true;
-    });
-  }, [search, category, price, minRating]);
+  const filteredProducts = mockProducts.filter((product) => {
+    if (
+      search &&
+      !product.title.toLowerCase().includes(search.toLowerCase())
+    ) {
+      return false;
+    }
+    if (category && product.category !== category) {
+      return false;
+    }
+    if (price === "under50" && product.price >= 50) return false;
+    if (price === "50to100" && (product.price < 50 || product.price > 100))
+      return false;
+    if (price === "over100" && product.price <= 100) return false;
+    if (minRating && product.rating < minRating) return false;
+    return true;
+  });
 
   if (!user) {
     return <Login onLogin={handleLogin} />;

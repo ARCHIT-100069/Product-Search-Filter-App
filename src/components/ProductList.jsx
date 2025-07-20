@@ -7,6 +7,7 @@ const ProductList = ({ products }) => (
       <div className="product-list-empty">No products found.</div>
     ) : (
       products.map((product) => (
+        <ProductCard key={product.id} product={product} />
       ))
     )}
   </div>
