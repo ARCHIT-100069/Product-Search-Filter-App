@@ -7,7 +7,7 @@ const mockProducts = [
     price: 49,
     rating: 4.2,
     description: "A timeless white t-shirt made from 100% organic cotton.",
-    image: "https://via.placeholder.com/150x150?text=T-Shirt",
+    image: "https://i.etsystatic.com/27208135/r/il/45059a/2965872441/il_570xN.2965872441_5v6e.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const mockProducts = [
     price: 129,
     rating: 4.6,
     description: "Wireless headphones with noise cancellation and 20h battery.",
-    image: "https://via.placeholder.com/150x150?text=Headphones",
+    image: "https://www.theaudiostore.in/cdn/shop/products/sony-headphone-black-sony-wh-1000xm5-active-noise-canceling-wireless-headphones-39213800095999.jpg?v=1744349664",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const mockProducts = [
     price: 89,
     rating: 4.1,
     description: "Brew rich espresso at home with this compact coffee maker.",
-    image: "https://via.placeholder.com/150x150?text=Coffee+Maker",
+    image: "https://m.media-amazon.com/images/I/61dNcZx6yWL.jpg",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const mockProducts = [
     price: 35,
     rating: 4.4,
     description: "Non-slip yoga mat for all types of workouts.",
-    image: "https://via.placeholder.com/150x150?text=Yoga+Mat",
+    image: "https://contents.mediadecathlon.com/p2940271/59e73f3bc780d9d6bae3dddb2f4f0958/p2940271.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const mockProducts = [
     price: 199,
     rating: 4.8,
     description: "Track your fitness and notifications with this smart watch.",
-    image: "https://via.placeholder.com/150x150?text=Smart+Watch",
+    image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/smartwatch/d/t/5/1-75-t55-smartwatch-android-ios-tajo-yes-original-imaghg4navgfgwak.jpeg?q=90&crop=false",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const mockProducts = [
     price: 79,
     rating: 4.0,
     description: "Comfortable and stylish denim jeans for everyday wear.",
-    image: "https://via.placeholder.com/150x150?text=Jeans",
+    image: "https://cloud.camper.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ=/AU00006-002_TF.jpg",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const mockProducts = [
     price: 55,
     rating: 3.9,
     description: "Modern table lamp with adjustable brightness.",
-    image: "https://via.placeholder.com/150x150?text=Lamp",
+    image: "https://www.akway.in/cdn/shop/files/17b_907fbe7f-bd88-45e3-8ada-e1ff5862683f.jpg?v=1701922885&width=1946",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ const mockProducts = [
     price: 120,
     rating: 4.5,
     description: "Lightweight running shoes for all terrains.",
-    image: "https://via.placeholder.com/150x150?text=Shoes",
+    image: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/6b88cd96-20c5-43c1-8645-38d1aaac0946/PEGASUS+EASYON.png",
   },
 ];
 
